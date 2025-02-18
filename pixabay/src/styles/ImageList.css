@@ -2,12 +2,18 @@
   width: 200px;
 }
 
-.image-list .ui.medium.image {
-  width: 25%;
+.image-list-column .ui.medium.image {
+  width: 100%;
   padding: 0 3px 3px;
 }
 
-.image-list .ui.medium.image img {
+.image-list-column .ui.medium.image img {
   width: 100%;
-  height: 100%;
+  height: auto;
+}
+
+.image-list-container {
+  display: flex;
+  margin-left: -3px;
+  width: auto;
 }

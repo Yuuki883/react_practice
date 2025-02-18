@@ -7,11 +7,15 @@
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.2.0",
     "@testing-library/user-event": "^13.5.0",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
     "axios": "^1.7.9",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-masonry-component": "^6.3.0",
+    "react-masonry-css": "^1.0.16",
     "react-scripts": "5.0.1",
+    "typescript": "^5.7.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
