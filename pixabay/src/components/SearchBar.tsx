@@ -1,8 +1,11 @@
 import React, { useState } from 'react';
 
-const SearchBar = ({ onSubmit }) => {
+interface SearchBarProps {
+  onSubmit: (term: string) => void;
+}
+const SearchBar = ({ onSubmit }: SearchBarProps) => {
   const [term, setTerm] = useState('');
-  const onFormSubmit = (event) => {
+  const onFormSubmit = (event: React.FormEvent) => {
     event.preventDefault();
     onSubmit(term);
   };
